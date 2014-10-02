@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  		
+		<link rel="stylesheet" href="./css/bootstrap.css" media="screen">
+		<link rel="stylesheet" href="./css/bootswatch.min.css">
+		<link rel="stylesheet" href="./css/estilo.css">
+               <title>Popularidad en Twitter</title>
+       </head>
+
+
+<body>
+
+		
+
+		<!--  *****   Cabecera *****  -->
+                       <div class="container">
+					<div class="cabecera" ALIGN=center>
+					<h1>Amigos Mas Populares en Twitter</h1>
+					<p><img src="/bird_icon.png" WIDTH=150 HEIGHT=150 />	
+					</div>
+
+
+		
+	<!--  *****   Central *****  -->
+			<div class="row">
+				<!--  Menu  -->
+				<div class="col-md-2">
+				
+				</div>
+				<div class="col-md-10">
+				  <div style="text-align:center;">
+					<div class ="tabla">
+					<table class="table table-hover">
+						<form action="/" method="post">
+							<p ><b>Introduzca su nombre en Twitter: </b></p><input type="text" name="firstname"  value="" autofocus>
+							<br>
+							<p ><b>¿Cuántos seguidores desea ver? </b></p><input type="text" name="n" value="1">
+							<br>
+							<br>
+							<input  type="submit" value="Enviar" >
+						</form>												
+					</table>
+					</div>
+				</div>
+
+		<div id="central">
+                 
+                       <% if @name != ''%>
+				<%if @number>10%>
+					<p id="warning"> Sólo se puede mostrar hasta 10 amigos </p>
+				<%elsif @amigos_usuario.length <= 0 %>
+					<p id="warning">El usuario no existe o no tiene amigos</p>
+				<%elsif @amigos_usuario.length < @number %>
+					<p id="warning">El usuario tiene menos de <%= @number%> amigos</p>
+					<ol>
+						<% @amigos_usuario.each do |i| %> 
+							<li id="col"><%= i %><br></li>
+						<% end %>
+					</ol>
+				<%else%>
+					<p1>Amigos :</p1>
+					<ol>
+						<% @amigos_usuario.each do |i| %> 
+							<li id="col"><%= i %><br></li>
+						<% end %>
+					</ol>
+				<%end%>
+			<%end%>
+		</div>
+
+<!--  *****   Pie *****  -->
+			<div id="pie">
+				
+					  <p1> <b>© SYTW  </b> Práctica 2 © Realizado por: <b>Rushil Lakhani Lakhani y Adan Rafael Lopez Lecuona.</b></p1>
+					</div>
+					  
+					 
+				</div>
+			</div>
+		</div>
+	</body>
+</html>	
