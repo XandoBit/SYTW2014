@@ -1,4 +1,7 @@
-# Authenticating with Google
+# Autentificandose con Google
+
+#Práctica 3
+###Autor: Adán Rafael López Lecuona.
 
 See these links:
 
