@@ -3,6 +3,9 @@
 #Práctica 3
 ###Autor: Adán Rafael López Lecuona.
 
+Obtenemos el proyecto desde el Github:
+[Github de:](https://github.com/crguezl/omniauth-google-oauth2-sample)
+
 See these links:
 
 * [Strategy to authenticate with Google via OAuth2 in OmniAuth.](https://github.com/zquestz/omniauth-google-oauth2)
