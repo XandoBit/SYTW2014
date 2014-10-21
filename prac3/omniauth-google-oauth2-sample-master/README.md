@@ -1,22 +1,30 @@
-# Autentificandose con Google
 
-#Práctica 3
+# Autentificándose con Google
+[logo]: http://www.google.com/images/logo.gif
+#Práctica 3 tutorizada
 ###Autor: Adán Rafael López Lecuona.
 
-Obtenemos el proyecto desde el Github:
-[Github de:](https://github.com/crguezl/omniauth-google-oauth2-sample)
+1. Configuramos la  versión propia del ejemplo de uso de OmniAuth que obtenemos en el proyecto de Github:
+[Ir al Github del ejemplo](https://github.com/crguezl/omniauth-google-oauth2-sample)
 
-See these links:
 
-* [Strategy to authenticate with Google via OAuth2 in OmniAuth.](https://github.com/zquestz/omniauth-google-oauth2)
-* [A gem containing a generic OAuth2 strategy for OmniAuth](https://github.com/intridea/omniauth-oauth2) 
 
-Get your API key at: 
+2. Obtenemos nuestra clave API key de Google console: 
 
-[https://code.google.com/apis/console](https://code.google.com/apis/console/)
+[Ir a la páginahttps://code.google.com/apis/console](https://code.google.com/apis/console/)
 
 Note the *Client ID* and the *Client Secret*.
 
-For more details, read the Google docs: 
+
+3. Modificamos el archivo gitignore y el config.yml:
+  
+ [Ir al archivo .gitignore ](https://github.com/XandoBit/SYTW2014/blob/master/prac3/omniauth-google-oauth2-sample-master/.gitignore)
+ [Ir al archivo config.yml](https://github.com/XandoBit/SYTW2014/blob/master/prac3/omniauth-google-oauth2-sample-master/config/config.yml)
+
+
+4. Desplegamos nuestra App en Heroku:
+ [App en Heroku](http://practhree.herokuapp.com)
+
+Enlaces de la bibliografía: 
 
 [https://developers.google.com/accounts/docs/OAuth2](https://developers.google.com/accounts/docs/OAuth2)
