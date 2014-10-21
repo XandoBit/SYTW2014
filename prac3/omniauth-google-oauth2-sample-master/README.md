@@ -1,8 +1,7 @@
 
 # Autentificándose con Google
-![logo de google][http://www.google.com/images/logo.gif]
-###Autor: Adán Rafael López Lecuona.
 
+![logo de google][http://www.google.com/images/logo.gif "google"]
 
 
 1. Configuramos la  versión propia del ejemplo de uso de OmniAuth que obtenemos en el proyecto de Github:
@@ -34,4 +33,7 @@
 
 Enlaces de la bibliografía: 
 
-    -[https://developers.google.com/accounts/docs/OAuth2](https://developers.google.com/accounts/docs/OAuth2)
+-[https://developers.google.com/accounts/docs/OAuth2](https://developers.google.com/accounts/docs/OAuth2)
+
+
+###Autor: Adán Rafael López Lecuona. SYTW 2014.
