@@ -1,8 +1,6 @@
 
 # Autentificándose con Google
 
-![logo de google][http://www.google.com/images/logo.gif "google"]
-
 
 1. Configuramos la  versión propia del ejemplo de uso de OmniAuth que obtenemos en el proyecto de Github:
     -[Ir al Github del ejemplo](https://github.com/crguezl/omniauth-google-oauth2-sample)
